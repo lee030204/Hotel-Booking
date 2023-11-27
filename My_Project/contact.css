@@ -1,0 +1,95 @@
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px; /* Adjust the maximum width of the container */
+    margin: 80px auto; /* Center the container on the page */
+  }
+  
+  .contact-info {
+    flex: 1;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .contact-info h2 {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px; /* Adjust the margin-bottom for more spacing */
+  }
+  
+  .contact-info li svg {
+    margin-right: 10px;
+    color: #007bff; /* Adjust the color to match your design */
+  }
+  
+  .contact-info li span {
+    flex-grow: 1;
+    color: #555;
+  }
+  
+  .contact-info a {
+    color: #007bff; /* Adjust the color to match your design */
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: lightskyblue;
+
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    color: #555;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }

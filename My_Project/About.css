@@ -1,0 +1,24 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    /* Add other styles as needed */
+  }
+  
+  .welcome-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+    /* Add other styles as needed */
+  }
+  
+  /* Define styles for other sections/classes accordingly */
+  .story-section,
+  .services-section,
+  .team-section,
+  .get-in-touch-section {
+    margin-bottom: 30px;
+    /* Add other section-specific styles */
+  }
+  
